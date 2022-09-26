@@ -2,11 +2,11 @@
 require 'core/bootstrap.php';
 
 $routes = [
-	'/hallo/welt' => 'WelcomeController@index',
+	'' => 'CartPaperController@index',
 ];
 
 $db = [
-	'name'     => 'tasklist',
+	'name'     => 'cartpaper',
 	'username' => 'root',
 	'password' => '',
 ];
